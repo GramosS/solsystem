@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solsystemet</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Solsystemet</h1>
+        <p>Solaris</p>
+    </header>
+
+    <main>
+        <section id="solar-system-container" class="solar-system-container"></section>
+    </main>
+    <section id="planet-info-container" class="planet-info hidden">
+        <section class="planet-info-content">
+            <section class="half-planet-visual"></section>
+            <section class="planet-visual-highlight"></section>
+            <span id="close-planet-info" class="close-info">&times;</span>
+            <h2 id="planet-title"></h2>
+            <h3 id="planet-subtitle"></h3>
+            <p id="planet-description"></p>
+            <section class="border-line"></section>
+            <ul>
+                <li><strong>Omkrets:</strong> <span id="planet-circumference-info"></span> km</li>
+                <li><strong>Temperatur dag:</strong> <span id="planet-temp-day-info"></span>&#8451;</li>
+                <li><strong>Temperatur natt:</strong> <span id="planet-temp-night-info"></span>&#8451;</li>
+                <li><strong>Km från solen:</strong> <span id="planet-distance-info"></span></li>
+                <li><strong>Rotationstid:</strong> <span id="planet-rotation-info"></span> dygn</li>
+                <li><strong>Årsvaraktighet:</strong> <span id="planet-orbit-info"></span> dygn</li>
+                <li><strong>Månar:</strong> <span id="planet-moons-info"></span></li>
+            </ul>
+        </section>
+    </section>
+</body>
+</html>
